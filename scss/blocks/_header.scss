@@ -1,0 +1,21 @@
+header {
+  background-color: $grey;
+  display: flex;
+  justify-content: center;
+  @include tablet {
+    padding: 0 16px;
+  }
+
+  @include mobile {
+    padding: 0;
+  }
+
+  .name {
+    margin: 0 0 0 34px;
+    @include font(red, weight, 30px, 36px);
+
+    @include tablet {
+      margin: 0 0 0 25px;
+    }
+  }
+}
