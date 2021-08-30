@@ -1,0 +1,18 @@
+body {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+
+  @include tablet {
+    width: 96%;
+  }
+
+  @include mobile {
+    width: 92%;
+  }
+}
